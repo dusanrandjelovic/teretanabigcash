@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cenovnik</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="cenovnik.css">
+    <style>
+      .dropdown-item {
+      color: white;
+      }
+      .dropdown-item:hover {
+      color: black;
+      background-color: white;
+      }
+      .dropdown-menu {
+      background-color: black;
+      border: 1px solid white;
+      }
+      @media (max-width: 748px){
+        nav div {
+        flex-direction: column;
+        }
+      }
+      </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand"><img src="https://durasite.000webhostapp.com/dura.png" alt="DuRa logo" class="logo"></a>
+    <a style="font-size: 16px; color: white;" class="navbar-brand" href="#">&#9990; 065-888-11-96</a>
+    <a style="font-size: 16px; color: white;" class="navbar-brand" href="#">&#9993; dusanrandjelovic92@gmail.com</a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">O nama</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Informacije
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="programi.html">Programi</a>
+                    <a class="dropdown-item" href="nastim.html">Naš tim</a>
+                    <a class="dropdown-item" href="#">Cenovnik</a>
+                  </div>
+                </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html">Galerija</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html" id="dugme">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+      <div class="naslov">
+      <h1><b>Teretana BIG CASH</b></h1>
+      <br>
+      <h4><b>Treniraj i uživaj</b></h4>
+    <br>
+      <h2><b>Samo u Beogradu i Čikagu</b></h2>
+      <br>
+      <a href="#dole">Cenovnik</a>
+      </div>
+      </header>
+
+      <main class="container text-center" id="dole">
+        <h1><b>Cenovnik usluga</b></h1>
+        <p><em>Najpovoljniji odnos cene i kvaliteta</em></p>
+
+        <div class="container mt-3">
+          <p>Potražite željeni program, trening ili članarinu u tabeli: </p>
+          <input class="form-control" id="myInput" type="text" placeholder="Potraži...">
+          <br>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Trening / program / članarina</th>
+                <th>Vremenski period</th>
+                <th>Cena</th>
+              </tr>
+            </thead>
+            <tbody id="myTable">
+              <tr>
+                <td>Mesečna članarina</td>
+                <td>30 dana</td>
+                <td>2.200 RSD</td>
+              </tr>
+              <tr>
+                <td>Fitnes trening</td>
+                <td>30 dana</td>
+                <td>3.000 RSD</td>
+              </tr>
+              <tr>
+                <td>Boks</td>
+                <td>60 dana</td>
+                <td>3.400 RSD</td>
+              </tr>
+              <tr>
+                <td>Pilates</td>
+                <td>45 dana</td>
+                <td>2.500 RSD</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>Dođite u BIG CASH i uživajte.</p>
+        </div>
+      </main>
+
+
+        <footer class="container">
+          <div class="row">
+        <div class="col-sm-4 text-center">
+        <img src="https://durasite.000webhostapp.com/dura.png" alt="DuRa logo" class="logo">
+        <p style="color: black">Samo u Beogradu i Čikagu
+        <br>
+        &copy; Big Cash</p>
+        <a href="https://sr-rs.facebook.com/" target="blank"><img src="face.png" class="icon"></a>
+        <a href="https://twitter.com/login?lang=sr" target="blank"><img src="twit.png" class="icon"></a>
+        <a href="https://www.instagram.com/accounts/login/" target="blank"><img src="insta.png" class="icon"></a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <p><a href="https://dusanrandjelovic.github.io/dusanrandjelovic/" target="_blank">Portfolio</a></p>
+          <p><a href="https://dusanportfolio.000webhostapp.com" target="_blank">Sea World</a></p>
+          <p><a href="https://durasite.000webhostapp.com" target="_blank">Lion</a></p>
+          <p><a href="https://dusanrandjelovic.github.io/sw/" target="_blank">Star Wars</a></p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <p><a href="">O nama</a></p>
+          <p><a href="">Programi</a></p>
+          <p><a href="">Galerija</a></p>
+          <p><a href="">Kontakt</a></p>
+        </div>
+
+        </div>
+        </footer>
+        <div class="dno">
+        <p>&copy; Design by Dušan Ranđelović</p>
+        </div>
+
+        <script>
+        $(document).ready(function(){
+          $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+          });
+        });
+        </script>
+  </body>
+</html>

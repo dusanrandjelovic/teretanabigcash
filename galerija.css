@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("barbells.jpg");
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("abs.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+nav div {
+display: flex;
+justify-content: flex-end;
+}
+nav li a {
+color: white;
+}
+nav li a:hover {
+color: grey;
+}
+.naslov {
+  color: white;
+  text-align: center;
+  margin-top: 9%;
+}
+.naslov a {
+  color: white;
+  border: 1px solid white;
+  padding: 6px 12px;
+}
+.naslov a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  border-top: 2px solid black;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  color: black;
+}
+
+.dno {
+  color: black;
+  text-align: center;
+}

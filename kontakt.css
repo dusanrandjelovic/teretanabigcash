@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("barbells.jpg");
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+}
+nav {
+  background-color: black;
+}
+
+nav div {
+display: flex;
+justify-content: flex-end;
+}
+nav li a {
+color: white;
+}
+nav li a:hover {
+color: grey;
+}
+main {
+  margin: 90px;
+}
+main p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.tri {
+  text-transform: lowercase;
+}
+.simbol {
+  font-size: 40px;
+}
+article {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("abs.jpg");
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 5% auto;
+  padding: 30px 80px;
+}
+form div {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+}
+label {
+ width: 35%;
+ color: white;
+}
+input, textarea {
+  width: 60%;
+  padding: 10px;
+}
+.flex-right {
+  display: block;
+  margin: auto;
+}
+button {
+  padding: 8px;
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+}
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+footer {
+  border-top: 2px solid black;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  color: black;
+}
+
+.dno {
+  color: black;
+  text-align: center;
+}
+@media (max-width: 748px){
+  form {
+    width: 100%;
+  }
+  label {
+    width: 60%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+}

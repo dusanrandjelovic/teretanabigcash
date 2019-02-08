@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Galerija</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="galerija.css">
+    <style>
+      .dropdown-item {
+      color: white;
+      }
+      .dropdown-item:hover {
+      color: black;
+      background-color: white;
+      }
+      .dropdown-menu {
+      background-color: black;
+      border: 1px solid white;
+      }
+      article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      article p {
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+      }
+      #sl1 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("https://images.pexels.com/photos/1552101/pexels-photo-1552101.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl2 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("konopci.jpg");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl3 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("athlete-barbell.jpg");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl4 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("https://images.pexels.com/photos/1430824/pexels-photo-1430824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl5 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("abs.jpg");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl6 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("https://images.pexels.com/photos/867453/pexels-photo-867453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl7 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("https://images.pexels.com/photos/931323/pexels-photo-931323.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl8 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("https://images.pexels.com/photos/703016/pexels-photo-703016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl9 {
+        background: -webkit-linear-gradient(rgba(32, 139, 34, 0.3), rgba(0, 100, 0, 0.3)), url("https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        height: 50vh;
+        width: 33.3%;
+      }
+      #sl1:hover, #sl2:hover, #sl3:hover, #sl4:hover, #sl5:hover, #sl6:hover, #sl7:hover, #sl8:hover, #sl9:hover {
+        opacity: 0.8;
+      }
+      @media (max-width: 748px){
+        nav div {
+        flex-direction: column;
+        }
+      article {
+        flex-direction: column;
+      }
+      #sl1, #sl2, #sl3, #sl4, #sl5, #sl6, #sl7, #sl8, #sl9 {
+        width: 100%;
+      }
+      }
+      </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand"><img src="https://durasite.000webhostapp.com/dura.png" alt="DuRa logo" class="logo"></a>
+    <a style="font-size: 16px; color: white;" class="navbar-brand" href="#">&#9990; 065-888-11-96</a>
+    <a style="font-size: 16px; color: white;" class="navbar-brand" href="#">&#9993; dusanrandjelovic92@gmail.com</a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">O nama</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Informacije
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="programi.html">Programi</a>
+                    <a class="dropdown-item" href="nastim.html">Naš tim</a>
+                    <a class="dropdown-item" href="cenovnik.html">Cenovnik</a>
+                  </div>
+                </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galerija</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html" id="dugme">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+      <div class="naslov">
+      <h1><b>Teretana BIG CASH</b></h1>
+      <br>
+      <h4><b>Treniraj i uživaj</b></h4>
+    <br>
+      <h2><b>Samo u Beogradu i Čikagu</b></h2>
+      <br>
+      <a href="#dole">Galerija</a>
+      </div>
+      </header>
+      <article id="dole">
+      <div id="sl1">
+
+      </div>
+      <div id="sl2">
+
+      </div>
+      <div id="sl3">
+
+      </div>
+
+      <div id="sl4">
+
+      </div>
+      <div id="sl5">
+
+      </div>
+      <div id="sl6">
+
+      </div>
+
+      <div id="sl7">
+
+      </div>
+      <div id="sl8">
+
+      </div>
+      <div id="sl9">
+
+      </div>
+      </article>
+
+      <footer class="container">
+        <div class="row">
+      <div class="col-sm-4 text-center">
+      <img src="https://durasite.000webhostapp.com/dura.png" alt="DuRa logo" class="logo">
+      <p style="color: black">Samo u Beogradu i Čikagu
+      <br>
+      &copy; Big Cash</p>
+      <a href="https://sr-rs.facebook.com/" target="blank"><img src="face.png" class="icon"></a>
+      <a href="https://twitter.com/login?lang=sr" target="blank"><img src="twit.png" class="icon"></a>
+      <a href="https://www.instagram.com/accounts/login/" target="blank"><img src="insta.png" class="icon"></a>
+      </div>
+      <div class="col-sm-4 text-center">
+        <p><a href="https://dusanrandjelovic.github.io/dusanrandjelovic/" target="_blank">Portfolio</a></p>
+        <p><a href="https://dusanportfolio.000webhostapp.com" target="_blank">Sea World</a></p>
+        <p><a href="https://durasite.000webhostapp.com" target="_blank">Lion</a></p>
+        <p><a href="https://dusanrandjelovic.github.io/sw/" target="_blank">Star Wars</a></p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <p><a href="index.html">O nama</a></p>
+        <p><a href="programi.html">Programi</a></p>
+        <p><a href="galerija.html">Galerija</a></p>
+        <p><a href="kontakt.html">Kontakt</a></p>
+      </div>
+
+      </div>
+      </footer>
+      <div class="dno">
+      <p>&copy; Design by Dušan Ranđelović</p>
+      </div>
+  </body>
+</html>
