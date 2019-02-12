@@ -38,7 +38,7 @@ main p {
 .simbol {
   font-size: 40px;
 }
-article {
+.artikl {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("abs.jpg");
   background-size: cover;
   width: 100%;
@@ -101,6 +101,10 @@ footer a:hover {
 .dno {
   color: black;
   text-align: center;
+}
+iframe {
+  width: 100%;
+  border: 0;
 }
 @media (max-width: 748px){
   form {

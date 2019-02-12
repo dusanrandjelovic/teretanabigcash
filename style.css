@@ -88,7 +88,7 @@ margin-right: 10px;
 .pozadina a:hover {
   cursor: pointer;
   color: black;
-  background: -webkit-linear-gradient(snow, mintcream);
+  background: linear-gradient(snow, mintcream);
   text-decoration: none;
   border: 1px solid black;
 }
@@ -120,7 +120,7 @@ footer a:hover {
 nav div {
 flex-direction: column;
 }
-article {
+.artikl {
   flex-direction: column;
 }
 #sl1, #sl2, #sl3 {
