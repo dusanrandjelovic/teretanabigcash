@@ -85,17 +85,12 @@ footer {
   margin-bottom: 70px;
   padding-top: 30px;
 }
-footer a {
+footer a, footer p {
   color: black;
 }
 footer a:hover {
   color: white;
   text-decoration: none;
-}
-.icon {
-  height: 30px;
-  width: 30px;
-  color: black;
 }
 
 .dno {
@@ -115,5 +110,11 @@ iframe {
   }
   input, textarea {
     width: 90%;
+  }
+  footer a, .dno, footer p {
+    color: white;
+  }
+  footer a:hover {
+    color: grey;
   }
 }

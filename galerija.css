@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   box-sizing: border-box;
@@ -49,20 +52,25 @@ footer {
   margin-bottom: 70px;
   padding-top: 30px;
 }
-footer a {
+footer a, footer p {
   color: black;
 }
 footer a:hover {
   color: white;
   text-decoration: none;
 }
-.icon {
-  height: 30px;
-  width: 30px;
-  color: black;
-}
+
 
 .dno {
   color: black;
   text-align: center;
+}
+@media (max-width: 748px){
+footer a, .dno, footer p {
+  color: white;
+}
+footer a:hover {
+  color: grey;
+}
+
 }
