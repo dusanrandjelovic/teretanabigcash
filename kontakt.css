@@ -39,7 +39,7 @@ main p {
   font-size: 40px;
 }
 .artikl {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("abs.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("absmanje.jpeg");
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
