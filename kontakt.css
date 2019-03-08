@@ -118,3 +118,14 @@ iframe {
     color: grey;
   }
 }
+@media (max-width: 380px){
+  main {
+    margin: 30px;
+  }
+  main p {
+    font-size: 14px;
+  }
+  form {
+  padding: 30px;
+}
+}

@@ -70,7 +70,7 @@ main img:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("athlete-barbelmanje.jpeg");
   background-size: cover;
   width: 100%;
-padding: 3%;
+padding: 4.6% 3%;
  background-attachment: fixed;
  display: flex;
  justify-content: center;
@@ -78,7 +78,9 @@ padding: 3%;
 }
 .pozadina p {
   color: white;
+  margin-top: 10px;
 margin-right: 10px;
+padding: 10px;
 }
 .pozadina a {
   padding: 10px;
